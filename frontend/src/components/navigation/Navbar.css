@@ -1,0 +1,80 @@
+.NavbarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+
+.NavbarContainer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1600px;
+}
+
+.NavbarLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 15%;
+}
+
+.NavbarLeft h1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.NavbarMid{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.NavbarMidLink{
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.NavbarMidLinkActive{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.NavbarRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 15%;
+    font-size: 1rem;
+}
+
+.NavbarRightLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 0px 0px;
+    margin: 0px;
+    text-align: center;
+    width: 125px;
+    height: 42px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+

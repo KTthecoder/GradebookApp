@@ -1,0 +1,359 @@
+.HomeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.HomeContainerBanner{
+    background-color: #1a40c9;
+    height: 88vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-image: url('../../static/svgs/HomeBanner.svg');
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(50% 0%, 100% 0, 100% 93%, 55% 96%, 0 100%, 0% 60%, 0 0);
+}
+
+.HomeContainer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    flex-direction: column;
+}
+
+.HomeHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 15vh;
+    flex-direction: column;
+}
+
+.HomeHeaderText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    flex-direction: column;
+}
+
+.HomeHeaderText h1{
+    font-size: 3.5rem;
+    text-align: center;
+    line-height: 73px;
+    color: white;
+    margin: 0px 0px 40px 0px;
+}
+
+.HomeHeaderText p{
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    margin: 0px 0px 50px 0px;
+}
+
+.HomeHeaderTextBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    padding: 0px;
+    margin: 0px;
+    height: 55px;
+    font-size: 1rem;
+    color: white;
+    background-color: #6BBAA3;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.HomeHeaderImages{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.HomeHeaderImgSmall{
+    width: 400px;
+    margin-top: -10vh;
+    text-align: center;
+}
+
+.HomeHeaderImgBig{
+    width: 550px;
+    margin-top: 15vh;
+    text-align: center;
+}
+
+.HomeHeaderImgMedium{
+    width: 500px;
+    margin-top: -20vh;
+}
+
+.HomeSection1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 180px;
+    flex-direction: column;
+}
+
+.HomeSection1Left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 70%;
+    flex-direction: column;
+}
+
+.HomeH1{
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+    font-size: 3rem;
+    line-height: 60px;
+}
+
+.HomeP{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    line-height: 32px;
+}
+
+.HomeSection1Right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 130px;
+}
+
+.HomeSection1RightDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(193, 193, 193, 1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(193, 193, 193, 1);
+    box-shadow: 0px 0px 5px 0px rgba(193, 193, 193, 1);
+    border-radius: 30px;
+    padding: 0px 10px 0px 10px;
+    height: 330px;
+}
+
+.HomeSectionRightIcon{
+    width: 70px;
+}
+
+.HomeSection1RightDiv h2{
+    margin: 30px 0px 20px 0px;
+}
+
+.HomeSection1RightDiv p{
+    margin: 0px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.HomeSection2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1a40c9;
+    margin-top: 200px;
+    background-image: url('../../static/svgs/HomeBanner.svg');
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0px;
+}
+
+.HomeSection2Div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1600px;
+}
+
+.HomeSection2Left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    flex-direction: column;
+}
+
+.HomeSection2Right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50%;
+    flex-direction: column;
+}
+
+.HomeSection2RightInp{
+    width: 65%;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding: 19px 25px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.Home2H1{
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+    font-size: 3rem;
+    line-height: 60px;
+    color: white;
+}
+
+.Home2P{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    line-height: 32px;
+    color: white;
+}
+
+.HomeSection2RightBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding: 0px;
+    margin: 0px;
+    height: 54px;
+    color: white;
+    background-color: #6BBAA3;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    border: none;
+    font-size: 1.09rem;
+    cursor: pointer;
+}
+
+.HomeSection3Big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+
+.HomeSection3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+}
+
+.HomeSection3Header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.HomeSection3Header1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.HomeSection3Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.HomeSection3MainDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.HomeSection3MainDivImgDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    padding: 50px 0px;
+    position: relative;
+}
+
+.HomeSection3MainDivImg{
+    width: 60%;
+}
+
+.HomeSection3MainDivImgBack{
+    width: 900px;
+    height: 700px;
+    background-image: url('../../static/svgs/blob.svg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.HomeSection3MainDivTextDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 45%;
+    flex-direction: column;
+}
+
+.HomeSection3MainDivTextDiv h1{
+    margin: 0px 0px 25px 0px;
+    padding: 0px;
+    font-size: 2.2rem;
+}
+
+.HomeSection3MainDivTextDiv p{
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+    font-size: 1rem;
+    line-height: 32px;
+}
+
+.HomeSection3MainDivTextDivBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    padding: 0px;
+    margin: 0px;
+    height: 53px;
+    font-size: 1rem;
+    color: white;
+    background-color: #6BBAA3;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
