@@ -1,0 +1,62 @@
+.DashboardGradesDetailsMain{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 90%;
+}
+
+.DashboardGradesDetailsMainDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.DashboardGradesDetailsMainDiv h2{
+    color: orange;
+    margin: 40px 0px 30px 0px;
+}
+
+.DashboardGradesDetailsMainDivBig{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.DashboardGradesDetailsMainDiv1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding: 8px 0px;
+}
+
+.DashboardGradesDetailsMainDiv1 p{
+    line-height: 30px;
+}
+
+.DashboardGradesDetailsMainDiv1 p:nth-child(1){
+    font-size: 1.1rem;
+    font-weight: 500;
+    width: 280px;
+}
+
+.DashboardGradesDetailsMainDiv1 p:nth-child(2){
+    font-size: 1.1rem;
+    font-weight: 400;
+    width: 85%;
+}
+
+.DashboardGradesDetailsMainDiv1Last{
+    border-bottom: 1px solid rgb(154, 154, 154);
+}
+
+.DashboardGradesDetailsMainDivBig h2{
+    margin-bottom: 20px;
+}
+

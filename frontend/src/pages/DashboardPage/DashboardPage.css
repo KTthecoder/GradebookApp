@@ -1,0 +1,166 @@
+.DashboardContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    columns: 2;
+    width: 100%;
+    background-color: white;
+}
+
+.DashboardContainer1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.DashboardHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.DashboardHeader1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.DashboardHeaderBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    border-radius: 30px;
+    background-color: #6BBAA3;
+    padding: 0px 17px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.DashboardHeaderIcon{
+    width: 24px;
+}
+
+.DashboardMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.DashboardMainDivGrades{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 380px;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px;
+    flex-direction: column;
+}
+
+.DashboardMainDivGradesHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.DashboardMainDivGradesHeaderIcon{
+    width: 42px;
+}
+
+.DashboardMainDivGradesHeaderIconDiv{
+    width: 20%;
+}
+
+.DashboardMainDivGradesHeader1{
+    width: 80%;
+}
+
+.DashboardMainDivGradesHeader1 p{
+    margin: 0px;
+    font-size: 0.9rem;
+}
+
+.DashboardMainDivGradesHeader1 h2{
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+.DashboardMainDivGradesDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.DashboardMainDivGradesDivLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 15%;
+}
+
+.DashboardMainDivGradesDivLeftIcon{
+    border: 2px solid red;
+    width: 15px;
+    height: 15px;
+    border-radius: 30px;
+}
+
+.DashboardMainDivGradesDivRight{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 85%;
+    flex-direction: column;
+}
+
+.DashboardMainDivGradesDivRight h3{
+    margin: 0px 0px 8px 0px;
+    font-size: 1.1rem;
+}
+
+.DashboardMainDivGradesDivRight p{
+    margin: 0px;
+    font-size: 1rem;
+}
+
+.DashboardMainDivFrequency{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 380px;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px;
+    flex-direction: column;
+}
+
+.DashboardMainDivTimetable{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 600px;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px;
+    flex-direction: column;
+}

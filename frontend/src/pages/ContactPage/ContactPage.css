@@ -1,0 +1,83 @@
+.ContactBanner{
+    background-color: #1a40c9;
+    height: 60vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-image: url('../../static/svgs/HomeBanner.svg');
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 0 100%);
+}
+
+.ContactContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+
+.ContactContainer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1600px;
+    margin-top: 150px;
+}
+
+.ContactLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 25px 30px;
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 13px 0px rgba(66, 68, 90, 1);
+}
+
+.ContactLeft h1{
+    font-size: 1.7rem;
+    margin: 0px;
+}
+
+.ContactLeftDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+}
+
+.ContactRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 50%;
+    height: 500px;
+    background-color: red;
+}
+
+.ContactLeftDiv1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ContactLeftDiv1Icon{
+    width: 30px;
+}
+
+.ContactLeftDiv1 p{
+    font-size: 1rem;
+    margin: 0px 0px 0px 10px;
+}

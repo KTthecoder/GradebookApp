@@ -1,0 +1,315 @@
+.PricingContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+
+.PricingBanner{
+    background-color: #1a40c9;
+    height: 95vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-image: url('../../static/svgs/HomeBanner.svg');
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+}
+
+.PricingHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15vh;
+}
+
+.PricingHeader h1{
+    font-size: 3.5rem;
+    line-height: 80px;
+    margin: 0px 0px 40px 0px;
+    color: white;
+}
+
+.PricingHeader p{
+    font-size: 1rem;
+    line-height: 35px;
+    margin: 0px;
+    color: white;
+}
+
+.PricingContainer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1600px;
+    margin-top: 130px;
+}
+
+.PricingDiv{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 500px;
+    flex-direction: column;
+    background-color: #FFBD4F;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 45px 40px;
+    /* height: 580px; */
+    /* border: 1px solid black; */
+    background-color: rgb(249, 249, 249);
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 13px 0px rgba(66, 68, 90, 1);
+}
+
+.PricingDiv:nth-child(2){
+    width: 500px;
+    /* height: 620px; */
+    background-color: #2F4858;
+    /* background-color: #FFBD4F; */
+    padding: 60px 60px;
+    transform: scale(1.03);
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(66, 68, 90, 1);
+    box-shadow: 0px 0px 13px 0px rgba(66, 68, 90, 1);
+    color: white;
+}
+
+.PricingDivH1{
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.PricingDivH3{
+    margin: 0px 0px 35px 0px;
+    padding: 0px;
+    font-size: 1rem;
+}
+
+.PricingDivP{
+    margin: 0px 0px 40px 0px;
+    padding: 0px;
+    line-height: 30px;
+}
+
+.PricingDivPrice{
+    margin: 0px 0px 40px 0px;
+    padding: 0px;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.PricingDivBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 20px 0px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: none;
+    font-weight: 500;
+    background-color: #6BBAA3;
+    color: white;
+}
+
+.PricingDiv1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    border-top: 1px solid black;
+    flex-direction: column;
+    padding: 20px 0px 10px 0px;
+}
+
+.PricingDiv2{
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px 0px 10px 0px;
+}
+
+.PricingDivText{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.PricingDivTextIcon{
+    width: 22px;
+    padding: 6px;
+    background-color: rgb(91, 191, 91);
+    border-radius: 30px;
+    margin-right: 12px;
+}
+
+.PricingDivTextIcon1{
+    width: 22px;
+    padding: 6px;
+    background-color: rgb(197, 33, 33);
+    border-radius: 30px;
+    margin-right: 12px;
+}
+
+.PricingDivText p{
+    line-height: 25px;
+    font-size: 1rem;
+}
+
+.HelpContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.HelpContainer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1600px;
+    margin: 180px 0px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    padding-bottom: 50px;
+}
+
+.HelpContainer1 h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+}
+
+.HelpContainerBtnsDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HelpContainerBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    text-decoration: none;
+    color: white;
+    background-color: #6BBAA3;
+    border-radius: 20px;
+    font-size: 1rem;
+    padding: 16px 0px;
+    margin-left: 50px;
+}
+
+.FaqContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.FaqHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.FaqHeader h1{
+    margin: 50px 0px 0px 0px;
+    font-size: 2.6rem;
+}
+
+.FaqHeader p{
+    margin: 30px 0px 0px 0px;
+}
+
+.FaqMain{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1200px;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.FaqMainDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+
+.FaqMainDiv:nth-child(1){
+    border-top: 1px solid black;
+}
+
+.FaqMainDivHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.FaqMainDivHeader h3{
+    margin: 0px 0px 0px 0px;
+    font-size: 1.3rem;
+    line-height: 32px;
+    width: 95%;
+}
+
+.FaqMainDivHeaderIcon{
+    width: 50px;
+    padding: 0px 0px 0px 10px;
+    cursor: pointer;
+}
+
+.FaqMainP{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 95%;
+}
+
+.FaqMainDivHeader p{
+    margin: 0px;
+    font-size: 1rem;
+    line-height: 27px;
+}
+
+.HomeSection2Pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1a40c9;
+    margin-top: 250px;
+    background-image: url('../../static/svgs/HomeBanner.svg');
+    background-position: center;
+    background-size: cover;
+    padding: 140px 0px;
+    margin-bottom: -200px;
+}

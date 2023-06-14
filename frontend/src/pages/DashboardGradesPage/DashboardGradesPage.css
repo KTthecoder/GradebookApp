@@ -1,0 +1,121 @@
+.DashboardGradesHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.DashboardGradesHeaderS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    background-color: white;
+}
+
+.DashboardGradesHeaderS h1{
+    color: black;
+    font-size: 1.5rem;
+}
+
+.DashboardGradesHeader1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.DashboardGradesHeader2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+}
+
+.DashboardGradesHeaderLink{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    margin-right: 30px;
+    padding: 5px 20px;
+    font-weight: 500;
+}
+
+.DashboardGradesHeaderLinkActive{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-right: 30px;
+    font-weight: bold;
+    background-color: orange;
+    padding: 17px 22px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.DashboardGradesMain{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 120px;
+    margin-top: 40px;
+}
+
+.DashboardMainDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding: 10px 0px;
+}
+
+.DashboardMainDivLeft{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 15%;
+}
+
+.DashboardMainDivLeft p{
+    color: black;
+}
+
+.DashboardMainDivMid{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 70%;
+}
+
+.DashboardMainDivMid p{
+    margin-right: 10px;
+    font-size: 1.1rem;
+    color: black;
+}
+
+.DashboardMainDivRight{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 15%;
+}
+
+.DashboardMainDivRight p{
+    color: black;
+    font-size: 1.1rem;
+}
+
+.DashboardMainDivRight span{
+    margin-left: 7px;
+    font-weight: 500;
+    color: orange;
+}

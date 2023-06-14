@@ -1,0 +1,117 @@
+.DrawerDashContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    background-color: white;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    border-right: 1px solid rgb(219, 219, 219);
+}
+
+.DrawerDashContainer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 75%;
+    flex-direction: column;
+    height: 75%;
+}
+
+.DrawerDashMid{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 0px;
+}
+
+.DrawerDashTop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 0px 0px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.DrawerDashTop h1{
+    font-size: 1.3rem;
+    color: black;
+    height: 80px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+}
+
+.DrawerDashMidLink{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    padding: 15px 0px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.DrawerDashMidLinkActive{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: black;
+    box-sizing: border-box;
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+}
+
+.DrawerDashMidLinkActive p{
+    line-height: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.DrawerDashMidLink p{
+    line-height: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.DrawerDashMidLinkIcon{
+    width: 22px;
+    margin-right: 15px;
+}
+
+.DrawerDashMidLink p{
+    font-size: 1rem;
+    color: black;
+}
+
+.DrawerDashMidLinkIcon{
+    width: 22px;
+    margin-right: 15px;
+}
+
+.DrawerDashMidLink p{
+    font-size: 1rem;
+    color: black;
+}
+
+.DrawerDashBot{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 80%;
+}

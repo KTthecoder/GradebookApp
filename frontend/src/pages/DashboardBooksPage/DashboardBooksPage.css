@@ -1,0 +1,197 @@
+.DashboardBooksMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    border-top: 2px solid rgb(219, 219, 219);
+    border-left: 2px solid rgb(219, 219, 219);
+    border-right: 2px solid rgb(219, 219, 219);
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.DashboardBooksHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.DashboardBooksHeader1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.DashboardBooksHeader1:nth-child(1){
+    width: 20%;
+    border-right: 2px solid rgb(219, 219, 219);
+    border-bottom: 2px solid rgb(219, 219, 219);
+}
+
+.DashboardBooksHeader1:nth-child(2){
+    width: 25%;
+    border-right: 2px solid rgb(219, 219, 219);
+    border-bottom: 2px solid rgb(219, 219, 219);
+}
+
+.DashboardBooksHeader1:nth-child(3){
+    width: 20%;
+    border-right: 2px solid rgb(219, 219, 219);
+    border-bottom: 2px solid rgb(219, 219, 219);
+}
+
+.DashboardBooksHeader1:nth-child(4){
+    width: 20%;
+    border-right: 2px solid rgb(219, 219, 219);
+    border-bottom: 2px solid rgb(219, 219, 219);
+}
+
+.DashboardBooksHeader1:nth-child(5){
+    width: 15%;
+    border-bottom: 2px solid rgb(219, 219, 219);
+}
+
+.DashboardBooksHeader1 p{
+    font-size: 1rem;
+    padding: 23px 20px;
+    margin: 0px;
+}
+
+.DashboardBooksMinDiv1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 1px solid rgb(219, 219, 219);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    width: 20%;
+    margin-bottom: 0px;
+}
+
+.DashboardBooksMinDiv1 p{
+    font-size: 1rem;
+    padding: 23px 20px;
+    margin: 0px;
+}
+
+.DashboardBooksMinDiv2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 1px solid rgb(219, 219, 219);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    width: 25%;
+}
+
+.DashboardBooksMinDiv2 p{
+    font-size: 1rem;
+    padding: 23px 20px;
+    margin: 0px;
+}
+
+.DashboardBooksMinDiv3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 1px solid rgb(219, 219, 219);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    width: 20%;
+}
+
+.DashboardBooksMinDiv3 p{
+    font-size: 1rem;
+    padding: 23px 20px;
+    margin: 0px;
+}
+
+.DashboardBooksMinDiv4{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 1px solid rgb(219, 219, 219);
+    border-bottom: 1px solid rgb(219, 219, 219);
+    width: 20%;
+}
+
+.DashboardBooksMinDiv4 p{
+    font-size: 1rem;
+    padding: 23px 20px;
+    margin: 0px;
+}
+
+.DashboardBooksMinDiv5{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    width: 15%;
+}
+
+.DashboardBooksMinDiv5 a{
+    font-size: 1rem;
+    padding: 23px 20px;
+    margin: 0px;
+    text-decoration: none;
+    color: orange;
+}
+
+.DashboardGradesDetailsMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.DashboardToClassDiv{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 70px;
+    
+}
+
+.DashboardToClassDiv h2{
+    color: orange;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 35px 0px;
+    border-radius: 20px;
+}
+
+.DashboardToClassDiv1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.DashboardToClassDivChartDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    flex-direction: column;
+}
+
+.DashboardToClassDivChartDiv p{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.DashboardToClassDivChartDiv p span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: orange;
+    margin-left: 10px;
+}
+
+.DashboardToClassDivChart{
+    width: 80%;
+}

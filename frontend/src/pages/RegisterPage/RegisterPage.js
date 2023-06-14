@@ -14,7 +14,7 @@ const RegisterPage = () => {
         <div className='LoginContainer'>
             <div className='LoginBanner1'></div>
             <div className='LoginBanner3'>
-                <img src={loginBanner} className='LoginBannerImg' alt='Login Image'/>
+                <img src={loginBanner} className='LoginBannerImg' alt='Login SVG'/>
             </div>
             <div className='LoginLeft'>
                 <div className='LoginBackBtnDiv'>
